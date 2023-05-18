@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
 //Quitamos debug
       debugShowCheckedModeBanner: false,
-      initialRoute: "/listview1",
+      initialRoute: "/listview2",
       routes: {
         "/listview1": (BuildContext context) => ListViewScreen(),
         "/listview2": (BuildContext context) => ListView2(),
